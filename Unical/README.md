@@ -54,6 +54,7 @@ Integrates hardware accelerators from the HW_accelerator directory to execute tr
 
 
 🧠 Project Scope and Contributions
+
 This repository reflects a substantial engineering effort encompassing:
 •	Embedded firmware development for UWB and inertial sensing platforms
 •	Real-time data acquisition and logging
