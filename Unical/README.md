@@ -2,6 +2,8 @@ This repository encapsulates the distilled outcome of research (COCOWEARS) condu
 As a primary use case, the project focuses on a system for indoor localization and monitoring of individuals, leveraging Ultra-Wideband (UWB) positioning and inertial sensing technologies. However, the architecture has been deliberately designed to support extensibility, enabling the development of a wide range of wearable applications beyond the initial scope.
 By integrating hardware acceleration on FPGA-based platforms and organizing the project into distinct functional modules—including firmware for embedded devices, IP core generation for computational tasks, and control libraries for peripheral management—the framework simplifies the development process while enhancing system performance and adaptability.
 Beyond offering a functional implementation, this repository serves as a robust foundation for ongoing research and prototyping in advanced wearable technology applications.
+
+
 📂 arduino_fw
 This directory contains firmware components intended for deployment on ESP32-based boards by Makerfabs, used for UWB-based localization and inertial data acquisition.
 -	ANCHOR_fw
@@ -34,6 +36,7 @@ This module contains multiple hardware implementations of Infinite Impulse Respo
 •	test: Contains stimulus files used to validate the correctness and performance of each filter architecture.
 These implementations are designed to be modular and reusable, allowing seamless integration into larger signal processing pipelines. The inclusion of multiple design strategies enables comparative analysis in terms of resource usage, latency, and numerical precision, making this module a valuable asset for researchers and developers working on embedded DSP systems.
 
+
 📂 Library for Zynq
 This folder includes custom-developed drivers and control libraries for interfacing with peripheral modules:
 - BNO055 (MIMU sensor)
@@ -48,6 +51,7 @@ Implements trilateration and kNN algorithms entirely on the Zynq processing syst
 - with_hw_acc
 Integrates hardware accelerators from the HW_accelerator directory to execute trilateration and kNN computations on dedicated IP cores.
 - 🛠️ Note: To use this configuration, users must first generate the IP cores, register them in the IP catalog, and construct a Block Design that includes all required components for system operation.
+
 
 🧠 Project Scope and Contributions
 This repository reflects a substantial engineering effort encompassing:
