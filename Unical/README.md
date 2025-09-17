@@ -56,12 +56,14 @@ Integrates hardware accelerators from the HW_accelerator directory to execute tr
 🧠 Project Scope and Contributions
 
 This repository reflects a substantial engineering effort encompassing:
-•	Embedded firmware development for UWB and inertial sensing platforms
-•	Real-time data acquisition and logging
-•	Hardware acceleration via custom VHDL IP cores
-•	Integration with Zynq SoC platforms using both PS and PL
-•	Development of reusable libraries for sensor and display control
-•	Simulation and validation through structured testbenches
-•	Dataset preparation and formatting for machine learning applications
+
+•	Embedded firmware development for UWB and inertial sensing platforms;
+•	Real-time data acquisition and logging;
+•	Hardware acceleration via custom VHDL IP cores;
+•	Integration with Zynq SoC platforms using both PS and PL;
+•	Development of reusable libraries for sensor and display control;
+•	Simulation and validation through structured testbenches;
+•	Dataset preparation and formatting for machine learning applications;
+
 The modular architecture ensures scalability and adaptability to various applications, making this repository a valuable resource for researchers and developers working in wearable systems. 
 
